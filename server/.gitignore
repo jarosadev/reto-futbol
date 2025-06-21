@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# dotenv environment files
+.env
+.env.*
+
+# Sequelize (opcional: si generas archivos temporales o de seed)
+*.sqlite
+*.sqlite3
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs / Text editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Optional: ignore uploads or generated files
+uploads/
+public/uploads/
+temp/
+test/
